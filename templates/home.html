@@ -1,5 +1,8 @@
 {% extends "layout.html" %}
 {% block title %}Home{% endblock %}
 {% block content %}
-    <p>This is the home page. It's not exciting yet...</p>
+    <h1>Home</h1>
+    <p>Need a quick summary of a wikipedia page? Well you've come to the right place.</p>
+    <p>To begin your search simply click <a href="{{ url_for('search') }}">Search</a>.</p>
+
 {% endblock %}

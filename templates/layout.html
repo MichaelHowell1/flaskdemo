@@ -10,13 +10,15 @@
 <div id="nav">
     <a href="{{ url_for('home') }}">Home</a> |
     <a href="{{ url_for('search') }}">Search</a>
+    <a href="{{ url_for('about') }}">About</a>
+
 </div>
 <div id="content">
     {% block content %}{% endblock %}
 </div>
 <div id="footer">
     {% block footer %}
-        <p>IT@JCU Flask Demo by Lindsay Ward - <a href="http://github.com/lindsaymarkward/flaskdemo">Original source on GitHub</a>.</p>
+        <p>CP1404 Flask Demo by Michael Howell - <a href="http://github.com/lindsaymarkward/flaskdemo">Original source by Lindsay Ward on GitHub</a>.</p>
     {% endblock %}
 </div>
 </body>
